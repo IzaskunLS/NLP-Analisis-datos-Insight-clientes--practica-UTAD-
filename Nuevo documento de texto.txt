@@ -1,0 +1,11 @@
+
+1. Practica Promoter: memoria (*.pdf) salida
+
+2. promoter_clasificacion tags: fichero knime con el analisis de la información, ejecución de la nube de tags y calculo del modelo (árbol de decisión) para clasificar los comentarios en etiquetas.
+
+3. promoter_clasificador etiquetas: fichero knime para el tratamiento de nuevos registros y clasificación según el modelo calculado en el proceso anterior.
+
+
+Un saludo,
+
+Izaskun

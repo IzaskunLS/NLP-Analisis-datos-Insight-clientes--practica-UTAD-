@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2">
+  <Header copyright="izask">
+    <Application name="KNIME" version="3.3.2"/>
+  </Header>
+  <DataDictionary numberOfFields="48">
+    <DataField name="LLEGAR[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="PARKING[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="9.0"/>
+    </DataField>
+    <DataField name="APARCAMIENTO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="5.0"/>
+    </DataField>
+    <DataField name="ASEGURABAN[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="3.0"/>
+    </DataField>
+    <DataField name="CONTRATADAS[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="3.0"/>
+    </DataField>
+    <DataField name="AMABILIDAD[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="3.0"/>
+    </DataField>
+    <DataField name="FACILIDAD[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="3.0"/>
+    </DataField>
+    <DataField name="RESERVA[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="9.0"/>
+    </DataField>
+    <DataField name="TIEMPO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="7.0"/>
+    </DataField>
+    <DataField name="CONTRATADO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="3.0"/>
+    </DataField>
+    <DataField name="ESPERANDO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="BARATO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="MENUS[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="2.0"/>
+    </DataField>
+    <DataField name="PRECIO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="INSTALACIONES[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="DEJAR[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="6.0"/>
+    </DataField>
+    <DataField name="LOCALIZAR[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="2.0"/>
+    </DataField>
+    <DataField name="ENCONTRAR[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="3.0"/>
+    </DataField>
+    <DataField name="EMISION[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="2.0"/>
+    </DataField>
+    <DataField name="CANJEAR[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="2.0"/>
+    </DataField>
+    <DataField name="CONTRATAR[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="FALTA[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="LLEVO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="6.0"/>
+    </DataField>
+    <DataField name="INFORMACION[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="7.0"/>
+    </DataField>
+    <DataField name="CONTRATO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="3.0"/>
+    </DataField>
+    <DataField name="LLEGADA[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="5.0"/>
+    </DataField>
+    <DataField name="APARCAR[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="7.0"/>
+    </DataField>
+    <DataField name="INTERESANTE[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="5.0"/>
+    </DataField>
+    <DataField name="LLEGUE[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="6.0"/>
+    </DataField>
+    <DataField name="PUNTOS[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="PUNTO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="ASEGURARME[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="2.0"/>
+    </DataField>
+    <DataField name="COMPROBAR[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="MOLESTADO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="6.0"/>
+    </DataField>
+    <DataField name="LLEGO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="2.0"/>
+    </DataField>
+    <DataField name="ESTACIONAMIENTO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="3.0"/>
+    </DataField>
+    <DataField name="CONTRATABAS[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="2.0"/>
+    </DataField>
+    <DataField name="RESERVABA[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="5.0"/>
+    </DataField>
+    <DataField name="RESERVARLO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="3.0"/>
+    </DataField>
+    <DataField name="RESERVADO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="5.0"/>
+    </DataField>
+    <DataField name="RESERVAR[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="2.0"/>
+    </DataField>
+    <DataField name="ANTELACION[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="2.0"/>
+    </DataField>
+    <DataField name="ESPERAR[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="9.0"/>
+    </DataField>
+    <DataField name="EXCESIVA[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="REDUZCO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="4.0"/>
+    </DataField>
+    <DataField name="ASEGURATE[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="3.0"/>
+    </DataField>
+    <DataField name="VINIENDO[]" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="5.0"/>
+    </DataField>
+    <DataField name="Document class" optype="categorical" dataType="string">
+      <Value value="BD"/>
+      <Value value="Parking"/>
+      <Value value="Caro"/>
+      <Value value="CS"/>
+      <Value value="Contenido"/>
+      <Value value="Web"/>
+      <Value value="Económico"/>
+      <Value value="Fácil/Sencillo"/>
+      <Value value="Falta"/>
+      <Value value="Producto"/>
+      <Value value="Reserva"/>
+      <Value value="Multipass"/>
+    </DataField>
+  </DataDictionary>
+  <TreeModel modelName="DecisionTree" functionName="classification" splitCharacteristic="binarySplit" missingValueStrategy="lastPrediction" noTrueChildStrategy="returnNullPrediction">
+    <MiningSchema>
+      <MiningField name="LLEGAR[]" invalidValueTreatment="asIs"/>
+      <MiningField name="PARKING[]" invalidValueTreatment="asIs"/>
+      <MiningField name="APARCAMIENTO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="ASEGURABAN[]" invalidValueTreatment="asIs"/>
+      <MiningField name="CONTRATADAS[]" invalidValueTreatment="asIs"/>
+      <MiningField name="AMABILIDAD[]" invalidValueTreatment="asIs"/>
+      <MiningField name="FACILIDAD[]" invalidValueTreatment="asIs"/>
+      <MiningField name="RESERVA[]" invalidValueTreatment="asIs"/>
+      <MiningField name="TIEMPO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="CONTRATADO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="ESPERANDO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="BARATO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="MENUS[]" invalidValueTreatment="asIs"/>
+      <MiningField name="PRECIO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="INSTALACIONES[]" invalidValueTreatment="asIs"/>
+      <MiningField name="DEJAR[]" invalidValueTreatment="asIs"/>
+      <MiningField name="LOCALIZAR[]" invalidValueTreatment="asIs"/>
+      <MiningField name="ENCONTRAR[]" invalidValueTreatment="asIs"/>
+      <MiningField name="EMISION[]" invalidValueTreatment="asIs"/>
+      <MiningField name="CANJEAR[]" invalidValueTreatment="asIs"/>
+      <MiningField name="CONTRATAR[]" invalidValueTreatment="asIs"/>
+      <MiningField name="FALTA[]" invalidValueTreatment="asIs"/>
+      <MiningField name="LLEVO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="INFORMACION[]" invalidValueTreatment="asIs"/>
+      <MiningField name="CONTRATO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="LLEGADA[]" invalidValueTreatment="asIs"/>
+      <MiningField name="APARCAR[]" invalidValueTreatment="asIs"/>
+      <MiningField name="INTERESANTE[]" invalidValueTreatment="asIs"/>
+      <MiningField name="LLEGUE[]" invalidValueTreatment="asIs"/>
+      <MiningField name="PUNTOS[]" invalidValueTreatment="asIs"/>
+      <MiningField name="PUNTO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="ASEGURARME[]" invalidValueTreatment="asIs"/>
+      <MiningField name="COMPROBAR[]" invalidValueTreatment="asIs"/>
+      <MiningField name="MOLESTADO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="LLEGO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="ESTACIONAMIENTO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="CONTRATABAS[]" invalidValueTreatment="asIs"/>
+      <MiningField name="RESERVABA[]" invalidValueTreatment="asIs"/>
+      <MiningField name="RESERVARLO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="RESERVADO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="RESERVAR[]" invalidValueTreatment="asIs"/>
+      <MiningField name="ANTELACION[]" invalidValueTreatment="asIs"/>
+      <MiningField name="ESPERAR[]" invalidValueTreatment="asIs"/>
+      <MiningField name="EXCESIVA[]" invalidValueTreatment="asIs"/>
+      <MiningField name="REDUZCO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="ASEGURATE[]" invalidValueTreatment="asIs"/>
+      <MiningField name="VINIENDO[]" invalidValueTreatment="asIs"/>
+      <MiningField name="Document class" invalidValueTreatment="asIs" usageType="target"/>
+    </MiningSchema>
+    <Node id="0" score="Parking" recordCount="432.0">
+      <True/>
+      <ScoreDistribution value="BD" recordCount="32.0"/>
+      <ScoreDistribution value="Parking" recordCount="107.0"/>
+      <ScoreDistribution value="Caro" recordCount="106.0"/>
+      <ScoreDistribution value="CS" recordCount="104.0"/>
+      <ScoreDistribution value="Contenido" recordCount="34.0"/>
+      <ScoreDistribution value="Web" recordCount="7.0"/>
+      <ScoreDistribution value="Económico" recordCount="4.0"/>
+      <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+      <ScoreDistribution value="Falta" recordCount="5.0"/>
+      <ScoreDistribution value="Producto" recordCount="2.0"/>
+      <ScoreDistribution value="Reserva" recordCount="21.0"/>
+      <ScoreDistribution value="Multipass" recordCount="5.0"/>
+      <Node id="4" score="Parking" recordCount="390.0">
+        <SimplePredicate field="PRECIO[]" operator="lessOrEqual" value="0.5"/>
+        <ScoreDistribution value="BD" recordCount="32.0"/>
+        <ScoreDistribution value="Parking" recordCount="107.0"/>
+        <ScoreDistribution value="Caro" recordCount="67.0"/>
+        <ScoreDistribution value="CS" recordCount="104.0"/>
+        <ScoreDistribution value="Contenido" recordCount="34.0"/>
+        <ScoreDistribution value="Web" recordCount="7.0"/>
+        <ScoreDistribution value="Económico" recordCount="4.0"/>
+        <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+        <ScoreDistribution value="Falta" recordCount="5.0"/>
+        <ScoreDistribution value="Producto" recordCount="2.0"/>
+        <ScoreDistribution value="Reserva" recordCount="18.0"/>
+        <ScoreDistribution value="Multipass" recordCount="5.0"/>
+        <Node id="7" score="Parking" recordCount="338.0">
+          <SimplePredicate field="RESERVA[]" operator="lessOrEqual" value="1.0"/>
+          <ScoreDistribution value="BD" recordCount="26.0"/>
+          <ScoreDistribution value="Parking" recordCount="107.0"/>
+          <ScoreDistribution value="Caro" recordCount="40.0"/>
+          <ScoreDistribution value="CS" recordCount="93.0"/>
+          <ScoreDistribution value="Contenido" recordCount="34.0"/>
+          <ScoreDistribution value="Web" recordCount="7.0"/>
+          <ScoreDistribution value="Económico" recordCount="0.0"/>
+          <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+          <ScoreDistribution value="Falta" recordCount="5.0"/>
+          <ScoreDistribution value="Producto" recordCount="2.0"/>
+          <ScoreDistribution value="Reserva" recordCount="14.0"/>
+          <ScoreDistribution value="Multipass" recordCount="5.0"/>
+          <Node id="28" score="Parking" recordCount="326.0">
+            <SimplePredicate field="DEJAR[]" operator="lessOrEqual" value="2.5"/>
+            <ScoreDistribution value="BD" recordCount="26.0"/>
+            <ScoreDistribution value="Parking" recordCount="107.0"/>
+            <ScoreDistribution value="Caro" recordCount="40.0"/>
+            <ScoreDistribution value="CS" recordCount="93.0"/>
+            <ScoreDistribution value="Contenido" recordCount="22.0"/>
+            <ScoreDistribution value="Web" recordCount="7.0"/>
+            <ScoreDistribution value="Económico" recordCount="0.0"/>
+            <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+            <ScoreDistribution value="Falta" recordCount="5.0"/>
+            <ScoreDistribution value="Producto" recordCount="2.0"/>
+            <ScoreDistribution value="Reserva" recordCount="14.0"/>
+            <ScoreDistribution value="Multipass" recordCount="5.0"/>
+            <Node id="29" score="Parking" recordCount="308.0">
+              <SimplePredicate field="LLEGAR[]" operator="lessOrEqual" value="1.5"/>
+              <ScoreDistribution value="BD" recordCount="12.0"/>
+              <ScoreDistribution value="Parking" recordCount="105.0"/>
+              <ScoreDistribution value="Caro" recordCount="40.0"/>
+              <ScoreDistribution value="CS" recordCount="93.0"/>
+              <ScoreDistribution value="Contenido" recordCount="22.0"/>
+              <ScoreDistribution value="Web" recordCount="7.0"/>
+              <ScoreDistribution value="Económico" recordCount="0.0"/>
+              <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+              <ScoreDistribution value="Falta" recordCount="5.0"/>
+              <ScoreDistribution value="Producto" recordCount="0.0"/>
+              <ScoreDistribution value="Reserva" recordCount="14.0"/>
+              <ScoreDistribution value="Multipass" recordCount="5.0"/>
+              <Node id="30" score="Parking" recordCount="301.0">
+                <SimplePredicate field="CONTRATO[]" operator="lessOrEqual" value="1.5"/>
+                <ScoreDistribution value="BD" recordCount="12.0"/>
+                <ScoreDistribution value="Parking" recordCount="105.0"/>
+                <ScoreDistribution value="Caro" recordCount="33.0"/>
+                <ScoreDistribution value="CS" recordCount="93.0"/>
+                <ScoreDistribution value="Contenido" recordCount="22.0"/>
+                <ScoreDistribution value="Web" recordCount="7.0"/>
+                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                <ScoreDistribution value="Falta" recordCount="5.0"/>
+                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                <ScoreDistribution value="Reserva" recordCount="14.0"/>
+                <ScoreDistribution value="Multipass" recordCount="5.0"/>
+                <Node id="31" score="Parking" recordCount="296.0">
+                  <SimplePredicate field="VINIENDO[]" operator="lessOrEqual" value="2.5"/>
+                  <ScoreDistribution value="BD" recordCount="12.0"/>
+                  <ScoreDistribution value="Parking" recordCount="105.0"/>
+                  <ScoreDistribution value="Caro" recordCount="33.0"/>
+                  <ScoreDistribution value="CS" recordCount="93.0"/>
+                  <ScoreDistribution value="Contenido" recordCount="22.0"/>
+                  <ScoreDistribution value="Web" recordCount="7.0"/>
+                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                  <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                  <ScoreDistribution value="Falta" recordCount="5.0"/>
+                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                  <ScoreDistribution value="Reserva" recordCount="14.0"/>
+                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                  <Node id="32" score="Parking" recordCount="291.0">
+                    <SimplePredicate field="FALTA[]" operator="lessOrEqual" value="0.5"/>
+                    <ScoreDistribution value="BD" recordCount="12.0"/>
+                    <ScoreDistribution value="Parking" recordCount="105.0"/>
+                    <ScoreDistribution value="Caro" recordCount="33.0"/>
+                    <ScoreDistribution value="CS" recordCount="93.0"/>
+                    <ScoreDistribution value="Contenido" recordCount="22.0"/>
+                    <ScoreDistribution value="Web" recordCount="7.0"/>
+                    <ScoreDistribution value="Económico" recordCount="0.0"/>
+                    <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                    <ScoreDistribution value="Falta" recordCount="0.0"/>
+                    <ScoreDistribution value="Producto" recordCount="0.0"/>
+                    <ScoreDistribution value="Reserva" recordCount="14.0"/>
+                    <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                    <Node id="33" score="Parking" recordCount="282.0">
+                      <SimplePredicate field="INSTALACIONES[]" operator="lessOrEqual" value="1.5"/>
+                      <ScoreDistribution value="BD" recordCount="12.0"/>
+                      <ScoreDistribution value="Parking" recordCount="96.0"/>
+                      <ScoreDistribution value="Caro" recordCount="33.0"/>
+                      <ScoreDistribution value="CS" recordCount="93.0"/>
+                      <ScoreDistribution value="Contenido" recordCount="22.0"/>
+                      <ScoreDistribution value="Web" recordCount="7.0"/>
+                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                      <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                      <ScoreDistribution value="Reserva" recordCount="14.0"/>
+                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                      <Node id="34" score="Parking" recordCount="278.0">
+                        <SimplePredicate field="ANTELACION[]" operator="lessOrEqual" value="1.0"/>
+                        <ScoreDistribution value="BD" recordCount="12.0"/>
+                        <ScoreDistribution value="Parking" recordCount="96.0"/>
+                        <ScoreDistribution value="Caro" recordCount="33.0"/>
+                        <ScoreDistribution value="CS" recordCount="93.0"/>
+                        <ScoreDistribution value="Contenido" recordCount="22.0"/>
+                        <ScoreDistribution value="Web" recordCount="7.0"/>
+                        <ScoreDistribution value="Económico" recordCount="0.0"/>
+                        <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                        <ScoreDistribution value="Falta" recordCount="0.0"/>
+                        <ScoreDistribution value="Producto" recordCount="0.0"/>
+                        <ScoreDistribution value="Reserva" recordCount="10.0"/>
+                        <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                        <Node id="35" score="Parking" recordCount="274.0">
+                          <SimplePredicate field="ESTACIONAMIENTO[]" operator="lessOrEqual" value="1.5"/>
+                          <ScoreDistribution value="BD" recordCount="12.0"/>
+                          <ScoreDistribution value="Parking" recordCount="96.0"/>
+                          <ScoreDistribution value="Caro" recordCount="33.0"/>
+                          <ScoreDistribution value="CS" recordCount="93.0"/>
+                          <ScoreDistribution value="Contenido" recordCount="22.0"/>
+                          <ScoreDistribution value="Web" recordCount="7.0"/>
+                          <ScoreDistribution value="Económico" recordCount="0.0"/>
+                          <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                          <ScoreDistribution value="Falta" recordCount="0.0"/>
+                          <ScoreDistribution value="Producto" recordCount="0.0"/>
+                          <ScoreDistribution value="Reserva" recordCount="6.0"/>
+                          <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                          <Node id="36" score="CS" recordCount="264.0">
+                            <SimplePredicate field="APARCAMIENTO[]" operator="lessOrEqual" value="1.5"/>
+                            <ScoreDistribution value="BD" recordCount="12.0"/>
+                            <ScoreDistribution value="Parking" recordCount="87.0"/>
+                            <ScoreDistribution value="Caro" recordCount="33.0"/>
+                            <ScoreDistribution value="CS" recordCount="93.0"/>
+                            <ScoreDistribution value="Contenido" recordCount="21.0"/>
+                            <ScoreDistribution value="Web" recordCount="7.0"/>
+                            <ScoreDistribution value="Económico" recordCount="0.0"/>
+                            <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                            <ScoreDistribution value="Falta" recordCount="0.0"/>
+                            <ScoreDistribution value="Producto" recordCount="0.0"/>
+                            <ScoreDistribution value="Reserva" recordCount="6.0"/>
+                            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                            <Node id="37" score="CS" recordCount="260.0">
+                              <SimplePredicate field="RESERVADO[]" operator="lessOrEqual" value="2.5"/>
+                              <ScoreDistribution value="BD" recordCount="12.0"/>
+                              <ScoreDistribution value="Parking" recordCount="87.0"/>
+                              <ScoreDistribution value="Caro" recordCount="33.0"/>
+                              <ScoreDistribution value="CS" recordCount="93.0"/>
+                              <ScoreDistribution value="Contenido" recordCount="17.0"/>
+                              <ScoreDistribution value="Web" recordCount="7.0"/>
+                              <ScoreDistribution value="Económico" recordCount="0.0"/>
+                              <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                              <ScoreDistribution value="Falta" recordCount="0.0"/>
+                              <ScoreDistribution value="Producto" recordCount="0.0"/>
+                              <ScoreDistribution value="Reserva" recordCount="6.0"/>
+                              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                              <Node id="38" score="CS" recordCount="256.0">
+                                <SimplePredicate field="ENCONTRAR[]" operator="lessOrEqual" value="1.5"/>
+                                <ScoreDistribution value="BD" recordCount="12.0"/>
+                                <ScoreDistribution value="Parking" recordCount="87.0"/>
+                                <ScoreDistribution value="Caro" recordCount="33.0"/>
+                                <ScoreDistribution value="CS" recordCount="93.0"/>
+                                <ScoreDistribution value="Contenido" recordCount="13.0"/>
+                                <ScoreDistribution value="Web" recordCount="7.0"/>
+                                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                <ScoreDistribution value="Reserva" recordCount="6.0"/>
+                                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                <Node id="39" score="CS" recordCount="253.0">
+                                  <SimplePredicate field="MOLESTADO[]" operator="lessOrEqual" value="3.0"/>
+                                  <ScoreDistribution value="BD" recordCount="12.0"/>
+                                  <ScoreDistribution value="Parking" recordCount="87.0"/>
+                                  <ScoreDistribution value="Caro" recordCount="33.0"/>
+                                  <ScoreDistribution value="CS" recordCount="93.0"/>
+                                  <ScoreDistribution value="Contenido" recordCount="13.0"/>
+                                  <ScoreDistribution value="Web" recordCount="7.0"/>
+                                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                  <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                  <ScoreDistribution value="Reserva" recordCount="3.0"/>
+                                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                  <Node id="40" score="CS" recordCount="250.0">
+                                    <SimplePredicate field="MENUS[]" operator="lessOrEqual" value="1.0"/>
+                                    <ScoreDistribution value="BD" recordCount="12.0"/>
+                                    <ScoreDistribution value="Parking" recordCount="87.0"/>
+                                    <ScoreDistribution value="Caro" recordCount="33.0"/>
+                                    <ScoreDistribution value="CS" recordCount="93.0"/>
+                                    <ScoreDistribution value="Contenido" recordCount="13.0"/>
+                                    <ScoreDistribution value="Web" recordCount="4.0"/>
+                                    <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                    <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                                    <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                    <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                    <ScoreDistribution value="Reserva" recordCount="3.0"/>
+                                    <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                    <Node id="41" score="CS" recordCount="247.0">
+                                      <SimplePredicate field="LOCALIZAR[]" operator="lessOrEqual" value="1.0"/>
+                                      <ScoreDistribution value="BD" recordCount="12.0"/>
+                                      <ScoreDistribution value="Parking" recordCount="87.0"/>
+                                      <ScoreDistribution value="Caro" recordCount="33.0"/>
+                                      <ScoreDistribution value="CS" recordCount="93.0"/>
+                                      <ScoreDistribution value="Contenido" recordCount="10.0"/>
+                                      <ScoreDistribution value="Web" recordCount="4.0"/>
+                                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                      <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                      <ScoreDistribution value="Reserva" recordCount="3.0"/>
+                                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                      <Node id="42" score="CS" recordCount="243.0">
+                                        <SimplePredicate field="TIEMPO[]" operator="lessOrEqual" value="2.5"/>
+                                        <ScoreDistribution value="BD" recordCount="12.0"/>
+                                        <ScoreDistribution value="Parking" recordCount="87.0"/>
+                                        <ScoreDistribution value="Caro" recordCount="33.0"/>
+                                        <ScoreDistribution value="CS" recordCount="93.0"/>
+                                        <ScoreDistribution value="Contenido" recordCount="9.0"/>
+                                        <ScoreDistribution value="Web" recordCount="4.0"/>
+                                        <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                        <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                                        <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                        <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                        <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                        <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                        <Node id="43" score="Parking" recordCount="204.0">
+                                          <SimplePredicate field="PARKING[]" operator="lessOrEqual" value="4.5"/>
+                                          <ScoreDistribution value="BD" recordCount="12.0"/>
+                                          <ScoreDistribution value="Parking" recordCount="77.0"/>
+                                          <ScoreDistribution value="Caro" recordCount="28.0"/>
+                                          <ScoreDistribution value="CS" recordCount="69.0"/>
+                                          <ScoreDistribution value="Contenido" recordCount="9.0"/>
+                                          <ScoreDistribution value="Web" recordCount="4.0"/>
+                                          <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                          <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                                          <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                          <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                          <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                          <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                          <Node id="44" score="Parking" recordCount="199.0">
+                                            <SimplePredicate field="PARKING[]" operator="lessOrEqual" value="3.5"/>
+                                            <ScoreDistribution value="BD" recordCount="12.0"/>
+                                            <ScoreDistribution value="Parking" recordCount="77.0"/>
+                                            <ScoreDistribution value="Caro" recordCount="23.0"/>
+                                            <ScoreDistribution value="CS" recordCount="69.0"/>
+                                            <ScoreDistribution value="Contenido" recordCount="9.0"/>
+                                            <ScoreDistribution value="Web" recordCount="4.0"/>
+                                            <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                            <ScoreDistribution value="Fácil/Sencillo" recordCount="5.0"/>
+                                            <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                            <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                            <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                            <Node id="45" score="Parking" recordCount="196.0">
+                                              <SimplePredicate field="FACILIDAD[]" operator="lessOrEqual" value="1.0"/>
+                                              <ScoreDistribution value="BD" recordCount="12.0"/>
+                                              <ScoreDistribution value="Parking" recordCount="77.0"/>
+                                              <ScoreDistribution value="Caro" recordCount="23.0"/>
+                                              <ScoreDistribution value="CS" recordCount="69.0"/>
+                                              <ScoreDistribution value="Contenido" recordCount="9.0"/>
+                                              <ScoreDistribution value="Web" recordCount="4.0"/>
+                                              <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                              <ScoreDistribution value="Fácil/Sencillo" recordCount="2.0"/>
+                                              <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                              <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                              <Node id="46" score="Parking" recordCount="193.0">
+                                                <SimplePredicate field="EXCESIVA[]" operator="lessOrEqual" value="2.0"/>
+                                                <ScoreDistribution value="BD" recordCount="12.0"/>
+                                                <ScoreDistribution value="Parking" recordCount="77.0"/>
+                                                <ScoreDistribution value="Caro" recordCount="20.0"/>
+                                                <ScoreDistribution value="CS" recordCount="69.0"/>
+                                                <ScoreDistribution value="Contenido" recordCount="9.0"/>
+                                                <ScoreDistribution value="Web" recordCount="4.0"/>
+                                                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                <ScoreDistribution value="Fácil/Sencillo" recordCount="2.0"/>
+                                                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                <Node id="47" score="Parking" recordCount="188.0">
+                                                  <SimplePredicate field="ESPERAR[]" operator="lessOrEqual" value="2.5"/>
+                                                  <ScoreDistribution value="BD" recordCount="12.0"/>
+                                                  <ScoreDistribution value="Parking" recordCount="72.0"/>
+                                                  <ScoreDistribution value="Caro" recordCount="20.0"/>
+                                                  <ScoreDistribution value="CS" recordCount="69.0"/>
+                                                  <ScoreDistribution value="Contenido" recordCount="9.0"/>
+                                                  <ScoreDistribution value="Web" recordCount="4.0"/>
+                                                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Fácil/Sencillo" recordCount="2.0"/>
+                                                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                  <Node id="48" score="Parking" recordCount="186.0">
+                                                    <SimplePredicate field="CONTRATAR[]" operator="lessOrEqual" value="1.0"/>
+                                                    <ScoreDistribution value="BD" recordCount="12.0"/>
+                                                    <ScoreDistribution value="Parking" recordCount="72.0"/>
+                                                    <ScoreDistribution value="Caro" recordCount="20.0"/>
+                                                    <ScoreDistribution value="CS" recordCount="69.0"/>
+                                                    <ScoreDistribution value="Contenido" recordCount="9.0"/>
+                                                    <ScoreDistribution value="Web" recordCount="4.0"/>
+                                                    <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                    <Node id="49" score="Parking" recordCount="184.0">
+                                                      <SimplePredicate field="EMISION[]" operator="lessOrEqual" value="1.0"/>
+                                                      <ScoreDistribution value="BD" recordCount="12.0"/>
+                                                      <ScoreDistribution value="Parking" recordCount="72.0"/>
+                                                      <ScoreDistribution value="Caro" recordCount="20.0"/>
+                                                      <ScoreDistribution value="CS" recordCount="69.0"/>
+                                                      <ScoreDistribution value="Contenido" recordCount="9.0"/>
+                                                      <ScoreDistribution value="Web" recordCount="2.0"/>
+                                                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                      <Node id="50" score="Parking" recordCount="182.0">
+                                                        <SimplePredicate field="CANJEAR[]" operator="lessOrEqual" value="1.0"/>
+                                                        <ScoreDistribution value="BD" recordCount="12.0"/>
+                                                        <ScoreDistribution value="Parking" recordCount="72.0"/>
+                                                        <ScoreDistribution value="Caro" recordCount="20.0"/>
+                                                        <ScoreDistribution value="CS" recordCount="69.0"/>
+                                                        <ScoreDistribution value="Contenido" recordCount="7.0"/>
+                                                        <ScoreDistribution value="Web" recordCount="2.0"/>
+                                                        <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                        <Node id="51" score="Parking" recordCount="180.0">
+                                                          <SimplePredicate field="ASEGURATE[]" operator="lessOrEqual" value="1.5"/>
+                                                          <ScoreDistribution value="BD" recordCount="12.0"/>
+                                                          <ScoreDistribution value="Parking" recordCount="72.0"/>
+                                                          <ScoreDistribution value="Caro" recordCount="18.0"/>
+                                                          <ScoreDistribution value="CS" recordCount="69.0"/>
+                                                          <ScoreDistribution value="Contenido" recordCount="7.0"/>
+                                                          <ScoreDistribution value="Web" recordCount="2.0"/>
+                                                          <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                          <Node id="52" score="Parking" recordCount="178.0">
+                                                            <SimplePredicate field="INFORMACION[]" operator="lessOrEqual" value="3.5"/>
+                                                            <ScoreDistribution value="BD" recordCount="12.0"/>
+                                                            <ScoreDistribution value="Parking" recordCount="72.0"/>
+                                                            <ScoreDistribution value="Caro" recordCount="16.0"/>
+                                                            <ScoreDistribution value="CS" recordCount="69.0"/>
+                                                            <ScoreDistribution value="Contenido" recordCount="7.0"/>
+                                                            <ScoreDistribution value="Web" recordCount="2.0"/>
+                                                            <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                            <Node id="53" score="CS" recordCount="174.0">
+                                                              <SimplePredicate field="APARCAR[]" operator="lessOrEqual" value="1.0"/>
+                                                              <ScoreDistribution value="BD" recordCount="12.0"/>
+                                                              <ScoreDistribution value="Parking" recordCount="68.0"/>
+                                                              <ScoreDistribution value="Caro" recordCount="16.0"/>
+                                                              <ScoreDistribution value="CS" recordCount="69.0"/>
+                                                              <ScoreDistribution value="Contenido" recordCount="7.0"/>
+                                                              <ScoreDistribution value="Web" recordCount="2.0"/>
+                                                              <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                              <Node id="54" score="CS" recordCount="171.0">
+                                                                <SimplePredicate field="LLEGADA[]" operator="lessOrEqual" value="2.5"/>
+                                                                <ScoreDistribution value="BD" recordCount="12.0"/>
+                                                                <ScoreDistribution value="Parking" recordCount="65.0"/>
+                                                                <ScoreDistribution value="Caro" recordCount="16.0"/>
+                                                                <ScoreDistribution value="CS" recordCount="69.0"/>
+                                                                <ScoreDistribution value="Contenido" recordCount="7.0"/>
+                                                                <ScoreDistribution value="Web" recordCount="2.0"/>
+                                                                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                                <Node id="55" score="CS" recordCount="169.0">
+                                                                  <SimplePredicate field="DEJAR[]" operator="lessOrEqual" value="1.0"/>
+                                                                  <ScoreDistribution value="BD" recordCount="12.0"/>
+                                                                  <ScoreDistribution value="Parking" recordCount="63.0"/>
+                                                                  <ScoreDistribution value="Caro" recordCount="16.0"/>
+                                                                  <ScoreDistribution value="CS" recordCount="69.0"/>
+                                                                  <ScoreDistribution value="Contenido" recordCount="7.0"/>
+                                                                  <ScoreDistribution value="Web" recordCount="2.0"/>
+                                                                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                                  <Node id="56" score="CS" recordCount="153.0">
+                                                                    <SimplePredicate field="PARKING[]" operator="lessOrEqual" value="1.5"/>
+                                                                    <ScoreDistribution value="BD" recordCount="9.0"/>
+                                                                    <ScoreDistribution value="Parking" recordCount="56.0"/>
+                                                                    <ScoreDistribution value="Caro" recordCount="16.0"/>
+                                                                    <ScoreDistribution value="CS" recordCount="63.0"/>
+                                                                    <ScoreDistribution value="Contenido" recordCount="7.0"/>
+                                                                    <ScoreDistribution value="Web" recordCount="2.0"/>
+                                                                    <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                                    <Node id="57" score="CS" recordCount="150.0">
+                                                                      <SimplePredicate field="TIEMPO[]" operator="lessOrEqual" value="1.0"/>
+                                                                      <ScoreDistribution value="BD" recordCount="9.0"/>
+                                                                      <ScoreDistribution value="Parking" recordCount="53.0"/>
+                                                                      <ScoreDistribution value="Caro" recordCount="16.0"/>
+                                                                      <ScoreDistribution value="CS" recordCount="63.0"/>
+                                                                      <ScoreDistribution value="Contenido" recordCount="7.0"/>
+                                                                      <ScoreDistribution value="Web" recordCount="2.0"/>
+                                                                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                                    </Node>
+                                                                    <Node id="58" score="Parking" recordCount="3.0">
+                                                                      <SimplePredicate field="TIEMPO[]" operator="greaterThan" value="1.0"/>
+                                                                      <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Parking" recordCount="3.0"/>
+                                                                      <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                                    </Node>
+                                                                  </Node>
+                                                                  <Node id="59" score="Parking" recordCount="16.0">
+                                                                    <SimplePredicate field="PARKING[]" operator="greaterThan" value="1.5"/>
+                                                                    <ScoreDistribution value="BD" recordCount="3.0"/>
+                                                                    <ScoreDistribution value="Parking" recordCount="7.0"/>
+                                                                    <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="CS" recordCount="6.0"/>
+                                                                    <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                                    <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                                    <Node id="60" score="Parking" recordCount="12.0">
+                                                                      <SimplePredicate field="TIEMPO[]" operator="lessOrEqual" value="1.0"/>
+                                                                      <ScoreDistribution value="BD" recordCount="3.0"/>
+                                                                      <ScoreDistribution value="Parking" recordCount="7.0"/>
+                                                                      <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="CS" recordCount="2.0"/>
+                                                                      <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                                    </Node>
+                                                                    <Node id="61" score="CS" recordCount="4.0">
+                                                                      <SimplePredicate field="TIEMPO[]" operator="greaterThan" value="1.0"/>
+                                                                      <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="CS" recordCount="4.0"/>
+                                                                      <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                                    </Node>
+                                                                  </Node>
+                                                                </Node>
+                                                                <Node id="62" score="Parking" recordCount="2.0">
+                                                                  <SimplePredicate field="DEJAR[]" operator="greaterThan" value="1.0"/>
+                                                                  <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Parking" recordCount="2.0"/>
+                                                                  <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                                </Node>
+                                                              </Node>
+                                                              <Node id="63" score="Parking" recordCount="3.0">
+                                                                <SimplePredicate field="LLEGADA[]" operator="greaterThan" value="2.5"/>
+                                                                <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Parking" recordCount="3.0"/>
+                                                                <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                                <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                              </Node>
+                                                            </Node>
+                                                            <Node id="64" score="Parking" recordCount="4.0">
+                                                              <SimplePredicate field="APARCAR[]" operator="greaterThan" value="1.0"/>
+                                                              <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Parking" recordCount="4.0"/>
+                                                              <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                              <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                            </Node>
+                                                          </Node>
+                                                          <Node id="65" score="Caro" recordCount="2.0">
+                                                            <SimplePredicate field="INFORMACION[]" operator="greaterThan" value="3.5"/>
+                                                            <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Caro" recordCount="2.0"/>
+                                                            <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                          </Node>
+                                                        </Node>
+                                                        <Node id="66" score="Caro" recordCount="2.0">
+                                                          <SimplePredicate field="ASEGURATE[]" operator="greaterThan" value="1.5"/>
+                                                          <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Caro" recordCount="2.0"/>
+                                                          <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                          <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                        </Node>
+                                                      </Node>
+                                                      <Node id="67" score="Contenido" recordCount="2.0">
+                                                        <SimplePredicate field="CANJEAR[]" operator="greaterThan" value="1.0"/>
+                                                        <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                        <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Contenido" recordCount="2.0"/>
+                                                        <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                        <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                      </Node>
+                                                    </Node>
+                                                    <Node id="68" score="Web" recordCount="2.0">
+                                                      <SimplePredicate field="EMISION[]" operator="greaterThan" value="1.0"/>
+                                                      <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                      <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Web" recordCount="2.0"/>
+                                                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                    </Node>
+                                                  </Node>
+                                                  <Node id="69" score="Fácil/Sencillo" recordCount="2.0">
+                                                    <SimplePredicate field="CONTRATAR[]" operator="greaterThan" value="1.0"/>
+                                                    <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                    <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Fácil/Sencillo" recordCount="2.0"/>
+                                                    <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                    <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                  </Node>
+                                                </Node>
+                                                <Node id="70" score="Parking" recordCount="5.0">
+                                                  <SimplePredicate field="ESPERAR[]" operator="greaterThan" value="2.5"/>
+                                                  <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Parking" recordCount="5.0"/>
+                                                  <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                  <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                </Node>
+                                              </Node>
+                                              <Node id="71" score="Caro" recordCount="3.0">
+                                                <SimplePredicate field="EXCESIVA[]" operator="greaterThan" value="2.0"/>
+                                                <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                                <ScoreDistribution value="Caro" recordCount="3.0"/>
+                                                <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                              </Node>
+                                            </Node>
+                                            <Node id="72" score="Fácil/Sencillo" recordCount="3.0">
+                                              <SimplePredicate field="FACILIDAD[]" operator="greaterThan" value="1.0"/>
+                                              <ScoreDistribution value="BD" recordCount="0.0"/>
+                                              <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                              <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                              <ScoreDistribution value="CS" recordCount="0.0"/>
+                                              <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                              <ScoreDistribution value="Web" recordCount="0.0"/>
+                                              <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                              <ScoreDistribution value="Fácil/Sencillo" recordCount="3.0"/>
+                                              <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                              <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                            </Node>
+                                          </Node>
+                                          <Node id="73" score="Caro" recordCount="5.0">
+                                            <SimplePredicate field="PARKING[]" operator="greaterThan" value="3.5"/>
+                                            <ScoreDistribution value="BD" recordCount="0.0"/>
+                                            <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                            <ScoreDistribution value="Caro" recordCount="5.0"/>
+                                            <ScoreDistribution value="CS" recordCount="0.0"/>
+                                            <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                            <ScoreDistribution value="Web" recordCount="0.0"/>
+                                            <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                            <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                            <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                            <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                            <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                          </Node>
+                                        </Node>
+                                        <Node id="74" score="CS" recordCount="39.0">
+                                          <SimplePredicate field="PARKING[]" operator="greaterThan" value="4.5"/>
+                                          <ScoreDistribution value="BD" recordCount="0.0"/>
+                                          <ScoreDistribution value="Parking" recordCount="10.0"/>
+                                          <ScoreDistribution value="Caro" recordCount="5.0"/>
+                                          <ScoreDistribution value="CS" recordCount="24.0"/>
+                                          <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                          <ScoreDistribution value="Web" recordCount="0.0"/>
+                                          <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                          <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                          <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                          <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                          <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                          <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                          <Node id="75" score="CS" recordCount="35.0">
+                                            <SimplePredicate field="LLEGUE[]" operator="lessOrEqual" value="2.0"/>
+                                            <ScoreDistribution value="BD" recordCount="0.0"/>
+                                            <ScoreDistribution value="Parking" recordCount="6.0"/>
+                                            <ScoreDistribution value="Caro" recordCount="5.0"/>
+                                            <ScoreDistribution value="CS" recordCount="24.0"/>
+                                            <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                            <ScoreDistribution value="Web" recordCount="0.0"/>
+                                            <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                            <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                            <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                            <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                            <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                            <Node id="76" score="CS" recordCount="32.0">
+                                              <SimplePredicate field="FACILIDAD[]" operator="lessOrEqual" value="1.5"/>
+                                              <ScoreDistribution value="BD" recordCount="0.0"/>
+                                              <ScoreDistribution value="Parking" recordCount="3.0"/>
+                                              <ScoreDistribution value="Caro" recordCount="5.0"/>
+                                              <ScoreDistribution value="CS" recordCount="24.0"/>
+                                              <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                              <ScoreDistribution value="Web" recordCount="0.0"/>
+                                              <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                              <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                              <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                              <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                              <Node id="77" score="CS" recordCount="18.0">
+                                                <SimplePredicate field="PARKING[]" operator="lessOrEqual" value="5.5"/>
+                                                <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                <ScoreDistribution value="Parking" recordCount="3.0"/>
+                                                <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                <ScoreDistribution value="CS" recordCount="15.0"/>
+                                                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                              </Node>
+                                              <Node id="80" score="CS" recordCount="14.0">
+                                                <SimplePredicate field="PARKING[]" operator="greaterThan" value="5.5"/>
+                                                <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                                <ScoreDistribution value="Caro" recordCount="5.0"/>
+                                                <ScoreDistribution value="CS" recordCount="9.0"/>
+                                                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                <Node id="81" score="Caro" recordCount="5.0">
+                                                  <SimplePredicate field="PARKING[]" operator="lessOrEqual" value="7.0"/>
+                                                  <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Caro" recordCount="5.0"/>
+                                                  <ScoreDistribution value="CS" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                </Node>
+                                                <Node id="82" score="CS" recordCount="9.0">
+                                                  <SimplePredicate field="PARKING[]" operator="greaterThan" value="7.0"/>
+                                                  <ScoreDistribution value="BD" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                                  <ScoreDistribution value="CS" recordCount="9.0"/>
+                                                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                                </Node>
+                                              </Node>
+                                            </Node>
+                                            <Node id="83" score="Parking" recordCount="3.0">
+                                              <SimplePredicate field="FACILIDAD[]" operator="greaterThan" value="1.5"/>
+                                              <ScoreDistribution value="BD" recordCount="0.0"/>
+                                              <ScoreDistribution value="Parking" recordCount="3.0"/>
+                                              <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                              <ScoreDistribution value="CS" recordCount="0.0"/>
+                                              <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                              <ScoreDistribution value="Web" recordCount="0.0"/>
+                                              <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                              <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                              <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                              <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                            </Node>
+                                          </Node>
+                                          <Node id="84" score="Parking" recordCount="4.0">
+                                            <SimplePredicate field="LLEGUE[]" operator="greaterThan" value="2.0"/>
+                                            <ScoreDistribution value="BD" recordCount="0.0"/>
+                                            <ScoreDistribution value="Parking" recordCount="4.0"/>
+                                            <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                            <ScoreDistribution value="CS" recordCount="0.0"/>
+                                            <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                            <ScoreDistribution value="Web" recordCount="0.0"/>
+                                            <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                            <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                            <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                            <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                            <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                          </Node>
+                                        </Node>
+                                      </Node>
+                                      <Node id="85" score="Reserva" recordCount="4.0">
+                                        <SimplePredicate field="TIEMPO[]" operator="greaterThan" value="2.5"/>
+                                        <ScoreDistribution value="BD" recordCount="0.0"/>
+                                        <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                        <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                        <ScoreDistribution value="CS" recordCount="0.0"/>
+                                        <ScoreDistribution value="Contenido" recordCount="1.0"/>
+                                        <ScoreDistribution value="Web" recordCount="0.0"/>
+                                        <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                        <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                        <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                        <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                        <ScoreDistribution value="Reserva" recordCount="3.0"/>
+                                        <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                      </Node>
+                                    </Node>
+                                    <Node id="86" score="Contenido" recordCount="3.0">
+                                      <SimplePredicate field="LOCALIZAR[]" operator="greaterThan" value="1.0"/>
+                                      <ScoreDistribution value="BD" recordCount="0.0"/>
+                                      <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                      <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                      <ScoreDistribution value="CS" recordCount="0.0"/>
+                                      <ScoreDistribution value="Contenido" recordCount="3.0"/>
+                                      <ScoreDistribution value="Web" recordCount="0.0"/>
+                                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                      <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                      <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                    </Node>
+                                  </Node>
+                                  <Node id="87" score="Web" recordCount="3.0">
+                                    <SimplePredicate field="MENUS[]" operator="greaterThan" value="1.0"/>
+                                    <ScoreDistribution value="BD" recordCount="0.0"/>
+                                    <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                    <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                    <ScoreDistribution value="CS" recordCount="0.0"/>
+                                    <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                    <ScoreDistribution value="Web" recordCount="3.0"/>
+                                    <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                    <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                    <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                    <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                    <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                    <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                  </Node>
+                                </Node>
+                                <Node id="88" score="Reserva" recordCount="3.0">
+                                  <SimplePredicate field="MOLESTADO[]" operator="greaterThan" value="3.0"/>
+                                  <ScoreDistribution value="BD" recordCount="0.0"/>
+                                  <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                  <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                  <ScoreDistribution value="CS" recordCount="0.0"/>
+                                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                  <ScoreDistribution value="Reserva" recordCount="3.0"/>
+                                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                                </Node>
+                              </Node>
+                              <Node id="89" score="Contenido" recordCount="4.0">
+                                <SimplePredicate field="ENCONTRAR[]" operator="greaterThan" value="1.5"/>
+                                <ScoreDistribution value="BD" recordCount="0.0"/>
+                                <ScoreDistribution value="Parking" recordCount="0.0"/>
+                                <ScoreDistribution value="Caro" recordCount="0.0"/>
+                                <ScoreDistribution value="CS" recordCount="0.0"/>
+                                <ScoreDistribution value="Contenido" recordCount="4.0"/>
+                                <ScoreDistribution value="Web" recordCount="0.0"/>
+                                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                              </Node>
+                            </Node>
+                            <Node id="90" score="Contenido" recordCount="4.0">
+                              <SimplePredicate field="RESERVADO[]" operator="greaterThan" value="2.5"/>
+                              <ScoreDistribution value="BD" recordCount="0.0"/>
+                              <ScoreDistribution value="Parking" recordCount="0.0"/>
+                              <ScoreDistribution value="Caro" recordCount="0.0"/>
+                              <ScoreDistribution value="CS" recordCount="0.0"/>
+                              <ScoreDistribution value="Contenido" recordCount="4.0"/>
+                              <ScoreDistribution value="Web" recordCount="0.0"/>
+                              <ScoreDistribution value="Económico" recordCount="0.0"/>
+                              <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                              <ScoreDistribution value="Falta" recordCount="0.0"/>
+                              <ScoreDistribution value="Producto" recordCount="0.0"/>
+                              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                            </Node>
+                          </Node>
+                          <Node id="91" score="Parking" recordCount="10.0">
+                            <SimplePredicate field="APARCAMIENTO[]" operator="greaterThan" value="1.5"/>
+                            <ScoreDistribution value="BD" recordCount="0.0"/>
+                            <ScoreDistribution value="Parking" recordCount="9.0"/>
+                            <ScoreDistribution value="Caro" recordCount="0.0"/>
+                            <ScoreDistribution value="CS" recordCount="0.0"/>
+                            <ScoreDistribution value="Contenido" recordCount="1.0"/>
+                            <ScoreDistribution value="Web" recordCount="0.0"/>
+                            <ScoreDistribution value="Económico" recordCount="0.0"/>
+                            <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                            <ScoreDistribution value="Falta" recordCount="0.0"/>
+                            <ScoreDistribution value="Producto" recordCount="0.0"/>
+                            <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                          </Node>
+                        </Node>
+                        <Node id="94" score="Reserva" recordCount="4.0">
+                          <SimplePredicate field="ESTACIONAMIENTO[]" operator="greaterThan" value="1.5"/>
+                          <ScoreDistribution value="BD" recordCount="0.0"/>
+                          <ScoreDistribution value="Parking" recordCount="0.0"/>
+                          <ScoreDistribution value="Caro" recordCount="0.0"/>
+                          <ScoreDistribution value="CS" recordCount="0.0"/>
+                          <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                          <ScoreDistribution value="Web" recordCount="0.0"/>
+                          <ScoreDistribution value="Económico" recordCount="0.0"/>
+                          <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                          <ScoreDistribution value="Falta" recordCount="0.0"/>
+                          <ScoreDistribution value="Producto" recordCount="0.0"/>
+                          <ScoreDistribution value="Reserva" recordCount="4.0"/>
+                          <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                        </Node>
+                      </Node>
+                      <Node id="95" score="Reserva" recordCount="4.0">
+                        <SimplePredicate field="ANTELACION[]" operator="greaterThan" value="1.0"/>
+                        <ScoreDistribution value="BD" recordCount="0.0"/>
+                        <ScoreDistribution value="Parking" recordCount="0.0"/>
+                        <ScoreDistribution value="Caro" recordCount="0.0"/>
+                        <ScoreDistribution value="CS" recordCount="0.0"/>
+                        <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                        <ScoreDistribution value="Web" recordCount="0.0"/>
+                        <ScoreDistribution value="Económico" recordCount="0.0"/>
+                        <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                        <ScoreDistribution value="Falta" recordCount="0.0"/>
+                        <ScoreDistribution value="Producto" recordCount="0.0"/>
+                        <ScoreDistribution value="Reserva" recordCount="4.0"/>
+                        <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                      </Node>
+                    </Node>
+                    <Node id="96" score="Parking" recordCount="9.0">
+                      <SimplePredicate field="INSTALACIONES[]" operator="greaterThan" value="1.5"/>
+                      <ScoreDistribution value="BD" recordCount="0.0"/>
+                      <ScoreDistribution value="Parking" recordCount="9.0"/>
+                      <ScoreDistribution value="Caro" recordCount="0.0"/>
+                      <ScoreDistribution value="CS" recordCount="0.0"/>
+                      <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                      <ScoreDistribution value="Web" recordCount="0.0"/>
+                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                      <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                      <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                    </Node>
+                  </Node>
+                  <Node id="97" score="Falta" recordCount="5.0">
+                    <SimplePredicate field="FALTA[]" operator="greaterThan" value="0.5"/>
+                    <ScoreDistribution value="BD" recordCount="0.0"/>
+                    <ScoreDistribution value="Parking" recordCount="0.0"/>
+                    <ScoreDistribution value="Caro" recordCount="0.0"/>
+                    <ScoreDistribution value="CS" recordCount="0.0"/>
+                    <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                    <ScoreDistribution value="Web" recordCount="0.0"/>
+                    <ScoreDistribution value="Económico" recordCount="0.0"/>
+                    <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                    <ScoreDistribution value="Falta" recordCount="5.0"/>
+                    <ScoreDistribution value="Producto" recordCount="0.0"/>
+                    <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                    <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                  </Node>
+                </Node>
+                <Node id="98" score="Multipass" recordCount="5.0">
+                  <SimplePredicate field="VINIENDO[]" operator="greaterThan" value="2.5"/>
+                  <ScoreDistribution value="BD" recordCount="0.0"/>
+                  <ScoreDistribution value="Parking" recordCount="0.0"/>
+                  <ScoreDistribution value="Caro" recordCount="0.0"/>
+                  <ScoreDistribution value="CS" recordCount="0.0"/>
+                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                  <ScoreDistribution value="Multipass" recordCount="5.0"/>
+                </Node>
+              </Node>
+              <Node id="99" score="Caro" recordCount="7.0">
+                <SimplePredicate field="CONTRATO[]" operator="greaterThan" value="1.5"/>
+                <ScoreDistribution value="BD" recordCount="0.0"/>
+                <ScoreDistribution value="Parking" recordCount="0.0"/>
+                <ScoreDistribution value="Caro" recordCount="7.0"/>
+                <ScoreDistribution value="CS" recordCount="0.0"/>
+                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                <ScoreDistribution value="Web" recordCount="0.0"/>
+                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+              </Node>
+            </Node>
+            <Node id="100" score="BD" recordCount="18.0">
+              <SimplePredicate field="LLEGAR[]" operator="greaterThan" value="1.5"/>
+              <ScoreDistribution value="BD" recordCount="14.0"/>
+              <ScoreDistribution value="Parking" recordCount="2.0"/>
+              <ScoreDistribution value="Caro" recordCount="0.0"/>
+              <ScoreDistribution value="CS" recordCount="0.0"/>
+              <ScoreDistribution value="Contenido" recordCount="0.0"/>
+              <ScoreDistribution value="Web" recordCount="0.0"/>
+              <ScoreDistribution value="Económico" recordCount="0.0"/>
+              <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+              <ScoreDistribution value="Falta" recordCount="0.0"/>
+              <ScoreDistribution value="Producto" recordCount="2.0"/>
+              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+              <Node id="101" score="BD" recordCount="16.0">
+                <SimplePredicate field="COMPROBAR[]" operator="lessOrEqual" value="2.0"/>
+                <ScoreDistribution value="BD" recordCount="14.0"/>
+                <ScoreDistribution value="Parking" recordCount="0.0"/>
+                <ScoreDistribution value="Caro" recordCount="0.0"/>
+                <ScoreDistribution value="CS" recordCount="0.0"/>
+                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                <ScoreDistribution value="Web" recordCount="0.0"/>
+                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                <ScoreDistribution value="Producto" recordCount="2.0"/>
+                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                <Node id="102" score="BD" recordCount="14.0">
+                  <SimplePredicate field="LLEVO[]" operator="lessOrEqual" value="3.0"/>
+                  <ScoreDistribution value="BD" recordCount="14.0"/>
+                  <ScoreDistribution value="Parking" recordCount="0.0"/>
+                  <ScoreDistribution value="Caro" recordCount="0.0"/>
+                  <ScoreDistribution value="CS" recordCount="0.0"/>
+                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                </Node>
+                <Node id="103" score="Producto" recordCount="2.0">
+                  <SimplePredicate field="LLEVO[]" operator="greaterThan" value="3.0"/>
+                  <ScoreDistribution value="BD" recordCount="0.0"/>
+                  <ScoreDistribution value="Parking" recordCount="0.0"/>
+                  <ScoreDistribution value="Caro" recordCount="0.0"/>
+                  <ScoreDistribution value="CS" recordCount="0.0"/>
+                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                  <ScoreDistribution value="Producto" recordCount="2.0"/>
+                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                </Node>
+              </Node>
+              <Node id="104" score="Parking" recordCount="2.0">
+                <SimplePredicate field="COMPROBAR[]" operator="greaterThan" value="2.0"/>
+                <ScoreDistribution value="BD" recordCount="0.0"/>
+                <ScoreDistribution value="Parking" recordCount="2.0"/>
+                <ScoreDistribution value="Caro" recordCount="0.0"/>
+                <ScoreDistribution value="CS" recordCount="0.0"/>
+                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                <ScoreDistribution value="Web" recordCount="0.0"/>
+                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+              </Node>
+            </Node>
+          </Node>
+          <Node id="27" score="Contenido" recordCount="12.0">
+            <SimplePredicate field="DEJAR[]" operator="greaterThan" value="2.5"/>
+            <ScoreDistribution value="BD" recordCount="0.0"/>
+            <ScoreDistribution value="Parking" recordCount="0.0"/>
+            <ScoreDistribution value="Caro" recordCount="0.0"/>
+            <ScoreDistribution value="CS" recordCount="0.0"/>
+            <ScoreDistribution value="Contenido" recordCount="12.0"/>
+            <ScoreDistribution value="Web" recordCount="0.0"/>
+            <ScoreDistribution value="Económico" recordCount="0.0"/>
+            <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+            <ScoreDistribution value="Falta" recordCount="0.0"/>
+            <ScoreDistribution value="Producto" recordCount="0.0"/>
+            <ScoreDistribution value="Reserva" recordCount="0.0"/>
+            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+          </Node>
+        </Node>
+        <Node id="5" score="Caro" recordCount="52.0">
+          <SimplePredicate field="RESERVA[]" operator="greaterThan" value="1.0"/>
+          <ScoreDistribution value="BD" recordCount="6.0"/>
+          <ScoreDistribution value="Parking" recordCount="0.0"/>
+          <ScoreDistribution value="Caro" recordCount="27.0"/>
+          <ScoreDistribution value="CS" recordCount="11.0"/>
+          <ScoreDistribution value="Contenido" recordCount="0.0"/>
+          <ScoreDistribution value="Web" recordCount="0.0"/>
+          <ScoreDistribution value="Económico" recordCount="4.0"/>
+          <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+          <ScoreDistribution value="Falta" recordCount="0.0"/>
+          <ScoreDistribution value="Producto" recordCount="0.0"/>
+          <ScoreDistribution value="Reserva" recordCount="4.0"/>
+          <ScoreDistribution value="Multipass" recordCount="0.0"/>
+          <Node id="6" score="Caro" recordCount="36.0">
+            <SimplePredicate field="RESERVA[]" operator="lessOrEqual" value="5.5"/>
+            <ScoreDistribution value="BD" recordCount="0.0"/>
+            <ScoreDistribution value="Parking" recordCount="0.0"/>
+            <ScoreDistribution value="Caro" recordCount="27.0"/>
+            <ScoreDistribution value="CS" recordCount="5.0"/>
+            <ScoreDistribution value="Contenido" recordCount="0.0"/>
+            <ScoreDistribution value="Web" recordCount="0.0"/>
+            <ScoreDistribution value="Económico" recordCount="4.0"/>
+            <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+            <ScoreDistribution value="Falta" recordCount="0.0"/>
+            <ScoreDistribution value="Producto" recordCount="0.0"/>
+            <ScoreDistribution value="Reserva" recordCount="0.0"/>
+            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+            <Node id="8" score="Caro" recordCount="33.0">
+              <SimplePredicate field="ESPERANDO[]" operator="lessOrEqual" value="2.0"/>
+              <ScoreDistribution value="BD" recordCount="0.0"/>
+              <ScoreDistribution value="Parking" recordCount="0.0"/>
+              <ScoreDistribution value="Caro" recordCount="27.0"/>
+              <ScoreDistribution value="CS" recordCount="2.0"/>
+              <ScoreDistribution value="Contenido" recordCount="0.0"/>
+              <ScoreDistribution value="Web" recordCount="0.0"/>
+              <ScoreDistribution value="Económico" recordCount="4.0"/>
+              <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+              <ScoreDistribution value="Falta" recordCount="0.0"/>
+              <ScoreDistribution value="Producto" recordCount="0.0"/>
+              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+              <Node id="9" score="Caro" recordCount="31.0">
+                <SimplePredicate field="PARKING[]" operator="lessOrEqual" value="4.5"/>
+                <ScoreDistribution value="BD" recordCount="0.0"/>
+                <ScoreDistribution value="Parking" recordCount="0.0"/>
+                <ScoreDistribution value="Caro" recordCount="27.0"/>
+                <ScoreDistribution value="CS" recordCount="0.0"/>
+                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                <ScoreDistribution value="Web" recordCount="0.0"/>
+                <ScoreDistribution value="Económico" recordCount="4.0"/>
+                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                <Node id="10" score="Caro" recordCount="16.0">
+                  <SimplePredicate field="RESERVA[]" operator="lessOrEqual" value="2.5"/>
+                  <ScoreDistribution value="BD" recordCount="0.0"/>
+                  <ScoreDistribution value="Parking" recordCount="0.0"/>
+                  <ScoreDistribution value="Caro" recordCount="16.0"/>
+                  <ScoreDistribution value="CS" recordCount="0.0"/>
+                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                </Node>
+                <Node id="11" score="Caro" recordCount="15.0">
+                  <SimplePredicate field="RESERVA[]" operator="greaterThan" value="2.5"/>
+                  <ScoreDistribution value="BD" recordCount="0.0"/>
+                  <ScoreDistribution value="Parking" recordCount="0.0"/>
+                  <ScoreDistribution value="Caro" recordCount="11.0"/>
+                  <ScoreDistribution value="CS" recordCount="0.0"/>
+                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                  <ScoreDistribution value="Económico" recordCount="4.0"/>
+                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                  <Node id="12" score="Caro" recordCount="11.0">
+                    <SimplePredicate field="ASEGURARME[]" operator="lessOrEqual" value="1.0"/>
+                    <ScoreDistribution value="BD" recordCount="0.0"/>
+                    <ScoreDistribution value="Parking" recordCount="0.0"/>
+                    <ScoreDistribution value="Caro" recordCount="7.0"/>
+                    <ScoreDistribution value="CS" recordCount="0.0"/>
+                    <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                    <ScoreDistribution value="Web" recordCount="0.0"/>
+                    <ScoreDistribution value="Económico" recordCount="4.0"/>
+                    <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                    <ScoreDistribution value="Falta" recordCount="0.0"/>
+                    <ScoreDistribution value="Producto" recordCount="0.0"/>
+                    <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                    <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                    <Node id="13" score="Económico" recordCount="7.0">
+                      <SimplePredicate field="RESERVA[]" operator="lessOrEqual" value="4.0"/>
+                      <ScoreDistribution value="BD" recordCount="0.0"/>
+                      <ScoreDistribution value="Parking" recordCount="0.0"/>
+                      <ScoreDistribution value="Caro" recordCount="3.0"/>
+                      <ScoreDistribution value="CS" recordCount="0.0"/>
+                      <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                      <ScoreDistribution value="Web" recordCount="0.0"/>
+                      <ScoreDistribution value="Económico" recordCount="4.0"/>
+                      <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                      <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                      <Node id="14" score="Económico" recordCount="4.0">
+                        <SimplePredicate field="BARATO[]" operator="lessOrEqual" value="1.5"/>
+                        <ScoreDistribution value="BD" recordCount="0.0"/>
+                        <ScoreDistribution value="Parking" recordCount="0.0"/>
+                        <ScoreDistribution value="Caro" recordCount="0.0"/>
+                        <ScoreDistribution value="CS" recordCount="0.0"/>
+                        <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                        <ScoreDistribution value="Web" recordCount="0.0"/>
+                        <ScoreDistribution value="Económico" recordCount="4.0"/>
+                        <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                        <ScoreDistribution value="Falta" recordCount="0.0"/>
+                        <ScoreDistribution value="Producto" recordCount="0.0"/>
+                        <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                        <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                      </Node>
+                      <Node id="15" score="Caro" recordCount="3.0">
+                        <SimplePredicate field="BARATO[]" operator="greaterThan" value="1.5"/>
+                        <ScoreDistribution value="BD" recordCount="0.0"/>
+                        <ScoreDistribution value="Parking" recordCount="0.0"/>
+                        <ScoreDistribution value="Caro" recordCount="3.0"/>
+                        <ScoreDistribution value="CS" recordCount="0.0"/>
+                        <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                        <ScoreDistribution value="Web" recordCount="0.0"/>
+                        <ScoreDistribution value="Económico" recordCount="0.0"/>
+                        <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                        <ScoreDistribution value="Falta" recordCount="0.0"/>
+                        <ScoreDistribution value="Producto" recordCount="0.0"/>
+                        <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                        <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                      </Node>
+                    </Node>
+                    <Node id="16" score="Caro" recordCount="4.0">
+                      <SimplePredicate field="RESERVA[]" operator="greaterThan" value="4.0"/>
+                      <ScoreDistribution value="BD" recordCount="0.0"/>
+                      <ScoreDistribution value="Parking" recordCount="0.0"/>
+                      <ScoreDistribution value="Caro" recordCount="4.0"/>
+                      <ScoreDistribution value="CS" recordCount="0.0"/>
+                      <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                      <ScoreDistribution value="Web" recordCount="0.0"/>
+                      <ScoreDistribution value="Económico" recordCount="0.0"/>
+                      <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                      <ScoreDistribution value="Falta" recordCount="0.0"/>
+                      <ScoreDistribution value="Producto" recordCount="0.0"/>
+                      <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                      <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                    </Node>
+                  </Node>
+                  <Node id="17" score="Caro" recordCount="4.0">
+                    <SimplePredicate field="ASEGURARME[]" operator="greaterThan" value="1.0"/>
+                    <ScoreDistribution value="BD" recordCount="0.0"/>
+                    <ScoreDistribution value="Parking" recordCount="0.0"/>
+                    <ScoreDistribution value="Caro" recordCount="4.0"/>
+                    <ScoreDistribution value="CS" recordCount="0.0"/>
+                    <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                    <ScoreDistribution value="Web" recordCount="0.0"/>
+                    <ScoreDistribution value="Económico" recordCount="0.0"/>
+                    <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                    <ScoreDistribution value="Falta" recordCount="0.0"/>
+                    <ScoreDistribution value="Producto" recordCount="0.0"/>
+                    <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                    <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                  </Node>
+                </Node>
+              </Node>
+              <Node id="18" score="CS" recordCount="2.0">
+                <SimplePredicate field="PARKING[]" operator="greaterThan" value="4.5"/>
+                <ScoreDistribution value="BD" recordCount="0.0"/>
+                <ScoreDistribution value="Parking" recordCount="0.0"/>
+                <ScoreDistribution value="Caro" recordCount="0.0"/>
+                <ScoreDistribution value="CS" recordCount="2.0"/>
+                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                <ScoreDistribution value="Web" recordCount="0.0"/>
+                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+              </Node>
+            </Node>
+            <Node id="19" score="CS" recordCount="3.0">
+              <SimplePredicate field="ESPERANDO[]" operator="greaterThan" value="2.0"/>
+              <ScoreDistribution value="BD" recordCount="0.0"/>
+              <ScoreDistribution value="Parking" recordCount="0.0"/>
+              <ScoreDistribution value="Caro" recordCount="0.0"/>
+              <ScoreDistribution value="CS" recordCount="3.0"/>
+              <ScoreDistribution value="Contenido" recordCount="0.0"/>
+              <ScoreDistribution value="Web" recordCount="0.0"/>
+              <ScoreDistribution value="Económico" recordCount="0.0"/>
+              <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+              <ScoreDistribution value="Falta" recordCount="0.0"/>
+              <ScoreDistribution value="Producto" recordCount="0.0"/>
+              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+            </Node>
+          </Node>
+          <Node id="20" score="BD" recordCount="16.0">
+            <SimplePredicate field="RESERVA[]" operator="greaterThan" value="5.5"/>
+            <ScoreDistribution value="BD" recordCount="6.0"/>
+            <ScoreDistribution value="Parking" recordCount="0.0"/>
+            <ScoreDistribution value="Caro" recordCount="0.0"/>
+            <ScoreDistribution value="CS" recordCount="6.0"/>
+            <ScoreDistribution value="Contenido" recordCount="0.0"/>
+            <ScoreDistribution value="Web" recordCount="0.0"/>
+            <ScoreDistribution value="Económico" recordCount="0.0"/>
+            <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+            <ScoreDistribution value="Falta" recordCount="0.0"/>
+            <ScoreDistribution value="Producto" recordCount="0.0"/>
+            <ScoreDistribution value="Reserva" recordCount="4.0"/>
+            <ScoreDistribution value="Multipass" recordCount="0.0"/>
+            <Node id="21" score="BD" recordCount="12.0">
+              <SimplePredicate field="REDUZCO[]" operator="lessOrEqual" value="2.0"/>
+              <ScoreDistribution value="BD" recordCount="6.0"/>
+              <ScoreDistribution value="Parking" recordCount="0.0"/>
+              <ScoreDistribution value="Caro" recordCount="0.0"/>
+              <ScoreDistribution value="CS" recordCount="6.0"/>
+              <ScoreDistribution value="Contenido" recordCount="0.0"/>
+              <ScoreDistribution value="Web" recordCount="0.0"/>
+              <ScoreDistribution value="Económico" recordCount="0.0"/>
+              <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+              <ScoreDistribution value="Falta" recordCount="0.0"/>
+              <ScoreDistribution value="Producto" recordCount="0.0"/>
+              <ScoreDistribution value="Reserva" recordCount="0.0"/>
+              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+              <Node id="22" score="BD" recordCount="8.0">
+                <SimplePredicate field="TIEMPO[]" operator="lessOrEqual" value="2.0"/>
+                <ScoreDistribution value="BD" recordCount="6.0"/>
+                <ScoreDistribution value="Parking" recordCount="0.0"/>
+                <ScoreDistribution value="Caro" recordCount="0.0"/>
+                <ScoreDistribution value="CS" recordCount="2.0"/>
+                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                <ScoreDistribution value="Web" recordCount="0.0"/>
+                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                <Node id="23" score="CS" recordCount="2.0">
+                  <SimplePredicate field="TIEMPO[]" operator="lessOrEqual" value="0.5"/>
+                  <ScoreDistribution value="BD" recordCount="0.0"/>
+                  <ScoreDistribution value="Parking" recordCount="0.0"/>
+                  <ScoreDistribution value="Caro" recordCount="0.0"/>
+                  <ScoreDistribution value="CS" recordCount="2.0"/>
+                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                </Node>
+                <Node id="24" score="BD" recordCount="6.0">
+                  <SimplePredicate field="TIEMPO[]" operator="greaterThan" value="0.5"/>
+                  <ScoreDistribution value="BD" recordCount="6.0"/>
+                  <ScoreDistribution value="Parking" recordCount="0.0"/>
+                  <ScoreDistribution value="Caro" recordCount="0.0"/>
+                  <ScoreDistribution value="CS" recordCount="0.0"/>
+                  <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                  <ScoreDistribution value="Web" recordCount="0.0"/>
+                  <ScoreDistribution value="Económico" recordCount="0.0"/>
+                  <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                  <ScoreDistribution value="Falta" recordCount="0.0"/>
+                  <ScoreDistribution value="Producto" recordCount="0.0"/>
+                  <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                  <ScoreDistribution value="Multipass" recordCount="0.0"/>
+                </Node>
+              </Node>
+              <Node id="25" score="CS" recordCount="4.0">
+                <SimplePredicate field="TIEMPO[]" operator="greaterThan" value="2.0"/>
+                <ScoreDistribution value="BD" recordCount="0.0"/>
+                <ScoreDistribution value="Parking" recordCount="0.0"/>
+                <ScoreDistribution value="Caro" recordCount="0.0"/>
+                <ScoreDistribution value="CS" recordCount="4.0"/>
+                <ScoreDistribution value="Contenido" recordCount="0.0"/>
+                <ScoreDistribution value="Web" recordCount="0.0"/>
+                <ScoreDistribution value="Económico" recordCount="0.0"/>
+                <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+                <ScoreDistribution value="Falta" recordCount="0.0"/>
+                <ScoreDistribution value="Producto" recordCount="0.0"/>
+                <ScoreDistribution value="Reserva" recordCount="0.0"/>
+                <ScoreDistribution value="Multipass" recordCount="0.0"/>
+              </Node>
+            </Node>
+            <Node id="26" score="Reserva" recordCount="4.0">
+              <SimplePredicate field="REDUZCO[]" operator="greaterThan" value="2.0"/>
+              <ScoreDistribution value="BD" recordCount="0.0"/>
+              <ScoreDistribution value="Parking" recordCount="0.0"/>
+              <ScoreDistribution value="Caro" recordCount="0.0"/>
+              <ScoreDistribution value="CS" recordCount="0.0"/>
+              <ScoreDistribution value="Contenido" recordCount="0.0"/>
+              <ScoreDistribution value="Web" recordCount="0.0"/>
+              <ScoreDistribution value="Económico" recordCount="0.0"/>
+              <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+              <ScoreDistribution value="Falta" recordCount="0.0"/>
+              <ScoreDistribution value="Producto" recordCount="0.0"/>
+              <ScoreDistribution value="Reserva" recordCount="4.0"/>
+              <ScoreDistribution value="Multipass" recordCount="0.0"/>
+            </Node>
+          </Node>
+        </Node>
+      </Node>
+      <Node id="1" score="Caro" recordCount="42.0">
+        <SimplePredicate field="PRECIO[]" operator="greaterThan" value="0.5"/>
+        <ScoreDistribution value="BD" recordCount="0.0"/>
+        <ScoreDistribution value="Parking" recordCount="0.0"/>
+        <ScoreDistribution value="Caro" recordCount="39.0"/>
+        <ScoreDistribution value="CS" recordCount="0.0"/>
+        <ScoreDistribution value="Contenido" recordCount="0.0"/>
+        <ScoreDistribution value="Web" recordCount="0.0"/>
+        <ScoreDistribution value="Económico" recordCount="0.0"/>
+        <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+        <ScoreDistribution value="Falta" recordCount="0.0"/>
+        <ScoreDistribution value="Producto" recordCount="0.0"/>
+        <ScoreDistribution value="Reserva" recordCount="3.0"/>
+        <ScoreDistribution value="Multipass" recordCount="0.0"/>
+        <Node id="2" score="Caro" recordCount="39.0">
+          <SimplePredicate field="CONTRATABAS[]" operator="lessOrEqual" value="1.0"/>
+          <ScoreDistribution value="BD" recordCount="0.0"/>
+          <ScoreDistribution value="Parking" recordCount="0.0"/>
+          <ScoreDistribution value="Caro" recordCount="39.0"/>
+          <ScoreDistribution value="CS" recordCount="0.0"/>
+          <ScoreDistribution value="Contenido" recordCount="0.0"/>
+          <ScoreDistribution value="Web" recordCount="0.0"/>
+          <ScoreDistribution value="Económico" recordCount="0.0"/>
+          <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+          <ScoreDistribution value="Falta" recordCount="0.0"/>
+          <ScoreDistribution value="Producto" recordCount="0.0"/>
+          <ScoreDistribution value="Reserva" recordCount="0.0"/>
+          <ScoreDistribution value="Multipass" recordCount="0.0"/>
+        </Node>
+        <Node id="3" score="Reserva" recordCount="3.0">
+          <SimplePredicate field="CONTRATABAS[]" operator="greaterThan" value="1.0"/>
+          <ScoreDistribution value="BD" recordCount="0.0"/>
+          <ScoreDistribution value="Parking" recordCount="0.0"/>
+          <ScoreDistribution value="Caro" recordCount="0.0"/>
+          <ScoreDistribution value="CS" recordCount="0.0"/>
+          <ScoreDistribution value="Contenido" recordCount="0.0"/>
+          <ScoreDistribution value="Web" recordCount="0.0"/>
+          <ScoreDistribution value="Económico" recordCount="0.0"/>
+          <ScoreDistribution value="Fácil/Sencillo" recordCount="0.0"/>
+          <ScoreDistribution value="Falta" recordCount="0.0"/>
+          <ScoreDistribution value="Producto" recordCount="0.0"/>
+          <ScoreDistribution value="Reserva" recordCount="3.0"/>
+          <ScoreDistribution value="Multipass" recordCount="0.0"/>
+        </Node>
+      </Node>
+    </Node>
+  </TreeModel>
+</PMML>
